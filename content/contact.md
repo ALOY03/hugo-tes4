@@ -1,5 +1,5 @@
 ---
-title: Pendaftaran
+title: Contact
 date: 2025-06-19T07:00:00.000Z
 draft: false
 language: id
