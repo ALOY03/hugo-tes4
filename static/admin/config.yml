@@ -1,17 +1,52 @@
 backend:
   name: git-gateway
   branch: main
+  local_backend: true
 
-media_folder: "static/images/uploads"
-public_folder: "/images/uploads"
+# Konfigurasi media folder per post
+media_folder: "content/post/{{slug}}"  # Gambar disimpan di folder post
+public_folder: "/p/{{slug}}"          # Path publik sesuai output Hugo
 
 collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "content/blog"
+  - name: "post"
+    label: "Blog Posts"
+    folder: "content/post"  # Root folder post
     create: true
     slug: "{{slug}}"
+    identifier_field: "title"
+    path: "{{slug}}/index"  # Format: content/post/nama-post/index.md
+    preview_path: "p/{{slug}}"  # Preview sesuai output Hugo
+    editor:
+      preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "text", required: false }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Categories", name: "categories", widget: "list", required: false }
+      - { label: "weight", name: "weight", widget: "number", required: false, default: 0 }
+      - { 
+          label: "Featured Image", 
+          name: "image", 
+          widget: "image",
+          # Media akan disimpan di content/post/{{slug}}/cover.jpg
+          media_library: {
+            name: "post_images",
+            config: {
+              public_folder: "/p/{{slug}}",  # Path output Hugo
+              multiple: false
+            }
+          },
+          required: false 
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "page"
+    label: "Pages"
+    folder: "content/page"
+    create: true
+    slug: "{{slug}}"
+    path: "{{slug}}/index"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
