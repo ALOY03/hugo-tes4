@@ -95,7 +95,7 @@ menu:
       name: Dropdown
       weight: 40
     - identifier: contact
-      name: Contact
+      name: Pendaftaran
       url: /contact/
       weight: 50
   categories:
