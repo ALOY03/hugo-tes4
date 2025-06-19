@@ -1,249 +1,86 @@
 ---
 title: SMP IT AR ROFII JATI LUHUR
 date: 2025-06-19T04:45:16.750Z
----
 draft: false
-language: en
-description: About Us
+language: id
+description: Tentang Kami - SMP IT Ar Rofii Jatiluhur
 featured_image: ../assets/images/featured/featured-img-placeholder.png
 ---
 
-# h1 Heading :blush:
-## h2 Heading
-### h3 Heading
-#### h4 Heading
-##### h5 Heading
-###### h6 Heading
+# SMP IT Ar Rofii Jatiluhur 🏫
 
+## Sekilas Tentang Sekolah
 
-## Horizontal Rules
-
-***
+SMP IT Ar Rofii Jatiluhur merupakan sekolah menengah pertama berbasis **Islam Terpadu** yang berlokasi di daerah Jatiluhur. Kami berkomitmen untuk mencetak generasi **berprestasi, berakhlak mulia, dan cinta Al-Qur'an**.
 
 ---
 
-___
+## Visi
 
+> *"Menjadi lembaga pendidikan Islam unggulan dalam mencetak generasi Qur’ani, cerdas, dan berkarakter mulia."*
 
-## Typographic replacements
+## Misi
 
-Enable typographer option to see result.
+1. Menanamkan nilai-nilai Islam dalam setiap aspek pembelajaran.
+2. Menerapkan kurikulum nasional yang dipadukan dengan pendidikan keislaman.
+3. Menumbuhkan semangat cinta Al-Qur'an melalui tahfidz harian.
+4. Mengembangkan potensi siswa dalam bidang akademik dan non-akademik.
 
-(c) (C) (r) (R) (tm) (TM) (p) (P) +-
-
-test.. test... test..... test?..... test!....
-
-!!!!!! ???? ,,  -- ---
-
-"Smartypants, double quotes" and 'single quotes'
-
-
-## Emphasis
-
-**This is bold text**
-
-__This is bold text__
-
-*This is italic text*
-
-_This is italic text_
-
-~~Strikethrough~~
-
-
-## Blockquotes
-
-
-> Blockquotes can also be nested...
->> ...by using additional greater-than signs right next to each other...
-> > > ...or with spaces between arrows.
-
-
-## Lists
-
-Unordered
-
-+ Create a list by starting a line with `+`, `-`, or `*`
-+ Sub-lists are made by indenting 2 spaces:
-  - Marker character change forces new list start:
-    * Ac tristique libero volutpat at
-    + Facilisis in pretium nisl aliquet
-    - Nulla volutpat aliquam velit
-+ Very easy!
-
-Ordered
-
-1. Lorem ipsum dolor sit amet
-2. Consectetur adipiscing elit
-3. Integer molestie lorem at massa
-
-
-1. You can use sequential numbers...
-1. ...or keep all the numbers as `1.`
-
-Start numbering with offset:
-
-57. foo
-1. bar
-
-
-## Code
-
-Inline `code`
-
-Indented code
-
-    // Some comments
-    line 1 of code
-    line 2 of code
-    line 3 of code
-
-
-Block code "fences"
-
-```
-Sample text here...
-```
-
-Syntax highlighting
-
-``` js
-var foo = function (bar) {
-  return bar++;
-};
-
-console.log(foo(5));
-```
-
-## Tables
-
-| Option | Description |
-| ------ | ----------- |
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
-
-Right aligned columns
-
-| Option | Description |
-| ------:| -----------:|
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
-
-
-## Links
-
-[link text](http://dev.nodeca.com)
-
-[link with title](http://nodeca.github.io/pica/demo/ "title text!")
-
-Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
-
-
-## Images
-
-![Minion](https://octodex.github.com/images/minion.png)
-![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
-
-Like links, Images also have a footnote style syntax
-
-![Alt text][id]
-
-With a reference later in the document defining the URL location:
-
-[id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
-
-
-## Plugins
-
-The killer feature of `markdown-it` is very effective support of
-[syntax plugins](https://www.npmjs.org/browse/keyword/markdown-it-plugin).
-
-
-### [Emojies](https://github.com/markdown-it/markdown-it-emoji)
-
-> Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
->
-> Shortcuts (emoticons): :-) :-( 8-) ;)
-
-see [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.
-
-
-### [Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)
-
-- 19^th^
-- H~2~O
-
-
-### [\<ins>](https://github.com/markdown-it/markdown-it-ins)
-
-++Inserted text++
-
-
-### [\<mark>](https://github.com/markdown-it/markdown-it-mark)
-
-==Marked text==
-
-
-### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
-
-Footnote 1 link[^first].
-
-Footnote 2 link[^second].
-
-Inline footnote^[Text of inline footnote] definition.
-
-Duplicated footnote reference[^second].
-
-[^first]: Footnote **can have markup**
-
-    and multiple paragraphs.
-
-[^second]: Footnote text.
-
-
-### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)
-
-Term 1
-
-:   Definition 1
-with lazy continuation.
-
-Term 2 with *inline markup*
-
-:   Definition 2
-
-        { some code, part of Definition 2 }
-
-    Third paragraph of definition 2.
-
-_Compact style:_
-
-Term 1
-  ~ Definition 1
-
-Term 2
-  ~ Definition 2a
-  ~ Definition 2b
-
-
-### [Abbreviations](https://github.com/markdown-it/markdown-it-abbr)
-
-This is HTML abbreviation example.
-
-It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
-
-*[HTML]: Hyper Text Markup Language
-
-### [Custom containers](https://github.com/markdown-it/markdown-it-container)
-
-::: warning
-*here be dragons*
-:::
 ---
-#### [Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.](<Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.>)<!--StartFragment--> jklkjksdshisiijjksoaaoaoaoaoa
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+## Program Unggulan 🌟
 
-<!--EndFragment-->
+- **Tahfidz Qur’an** (minimal 3 juz selama 3 tahun)
+- **Bahasa Arab & Inggris Aktif**
+- **Leadership Camp & Outing Class**
+- **Pembinaan Akhlak dan Karakter Islami**
+- **Ekstrakurikuler:** Panahan, Robotik, Pramuka, Futsal, dan lainnya
+
+---
+
+## Fasilitas Sekolah 🏫
+
+- Gedung representatif dan nyaman
+- Ruang kelas ber-AC
+- Laboratorium Komputer dan IPA
+- Masjid sekolah
+- Area outdoor & taman belajar
+- Wifi untuk pembelajaran digital
+
+---
+
+## Pendaftaran Peserta Didik Baru 📋
+
+Pendaftaran dapat dilakukan secara **online maupun offline**. Informasi lebih lanjut tersedia di situs resmi sekolah kami atau datang langsung ke kampus kami.
+
+> 📞 Kontak: 0812-3456-7890  
+> 🌐 Website: [www.smpitarrofii.sch.id](https://www.smpitarrofii.sch.id)
+
+---
+
+## Galeri
+
+![Kegiatan Belajar](https://octodex.github.com/images/minion.png)
+![Ekstrakurikuler](https://octodex.github.com/images/stormtroopocat.jpg "Ekstrakurikuler Panahan")
+
+---
+
+## Testimoni Orang Tua
+
+> *"Sejak anak saya masuk ke SMP IT Ar Rofii, saya melihat perubahan luar biasa. Ia jadi lebih disiplin, rajin mengaji, dan semangat belajar."*  
+> — **Ibu Dini, orang tua siswa kelas 9**
+
+---
+
+## Lokasi
+
+📍 Jl. Pendidikan No.123, Jatiluhur, Purwakarta, Jawa Barat
+
+---
+
+## Penutup
+
+SMP IT Ar Rofii Jatiluhur bukan sekadar sekolah, tapi **wadah membentuk karakter dan kecerdasan spiritual anak-anak kita**. Bergabunglah bersama kami untuk membangun generasi Islam masa depan yang unggul dan mulia!
+
+---
+
