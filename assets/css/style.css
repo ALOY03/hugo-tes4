@@ -3064,8 +3064,9 @@ video {
 
 .bg-gray-900 {
   --tw-bg-opacity: 1;
-  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+  background-color: rgb(135 206 235 / var(--tw-bg-opacity)); /* SkyBlue */
 }
+
 
 .bg-indigo-600 {
   --tw-bg-opacity: 1;
