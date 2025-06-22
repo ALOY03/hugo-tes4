@@ -113,7 +113,7 @@ params:
 
 menu:
   main:
-  -   identifier: new menu
+  -   identifier: new-menu
       name: new menu
       url: /prose/
       weight: 10
