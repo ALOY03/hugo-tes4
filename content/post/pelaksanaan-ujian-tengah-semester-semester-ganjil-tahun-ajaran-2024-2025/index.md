@@ -4,7 +4,7 @@ date: 2025-06-23T15:45:06.615Z
 tags:
   - news
 weight: 0
-featured_image: content/post/pelaksanaan-ujian-tengah-semester-semester-ganjil-tahun-ajaran-2024-2025/img-20210225-wa0207.jpg
+featured_image: ..content/post/pelaksanaan-ujian-tengah-semester-semester-ganjil-tahun-ajaran-2024-2025/img-20210225-wa0207.jpg
 ---
 ![](img-20200430-wa0008.jpg)
 ![](picture1.png "logo smp it")
