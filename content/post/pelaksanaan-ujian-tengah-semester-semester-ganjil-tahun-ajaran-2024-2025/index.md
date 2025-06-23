@@ -7,6 +7,7 @@ weight: 0
 image: img-20210225-wa0207.jpg
 ---
 ![](img-20200430-wa0008.jpg)
+![](picture1.png "logo smp it")
 
 # ﻿ujian penilaian akhir semester di smp it ar rofii
 
