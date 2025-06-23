@@ -133,14 +133,21 @@ menu:
       weight: 50
 
   categories:
-    - identifier: prose
-      name: Prose
-      url: /prose/
-      weight: 10
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 20
+  - identifier: appearance
+    name: Pendaftaran
+    post: "Formulir dan info penerimaan siswa baru"
+    url: "#"
+    weight: 10
+  - identifier: comments
+    name: Visi Misi
+    post: "Tujuan dan arah sekolah"
+    url: "#"
+    weight: 20
+  - identifier: analytics
+    name: Sejarah
+    post: "Sejarah singkat SMP IT Ar-Rofii"
+    url: "#"
+    weight: 30
 
   dropdown:
   - identifier: appearance
