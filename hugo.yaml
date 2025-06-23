@@ -143,22 +143,26 @@ menu:
       weight: 20
 
   dropdown:
-    - identifier: appearance
-      pre: file-text
-      name: Pendaftaran
-      post: "Easy customization"
-      url: "#"
-      weight: 10
-    - identifier: comments
-      name: Sejarah dan visi misi
-      post: "Check your latest comments"
-      url: "#"
-      weight: 20
-    - identifier: analytics
-      name: Galery
-      post: "Take a look at your statistics"
-      url: "#"
-      weight: 30
+  - identifier: appearance
+    pre: file-text  # Ikon formulir pendaftaran
+    name: Pendaftaran
+    post: "Formulir dan info penerimaan siswa baru"
+    url: "#"
+    weight: 10
+
+  - identifier: comments
+    pre: target  # Ikon panah target → cocok untuk visi misi
+    name: Visi Misi
+    post: "Tujuan dan arah sekolah"
+    url: "#"
+    weight: 20
+
+  - identifier: analytics
+    pre: book-open  # Ikon buku → cocok untuk sejarah
+    name: Sejarah
+    post: "Sejarah singkat SMP IT Ar-Rofii"
+    url: "#"
+    weight: 30
 
   footer:
     - identifier: about
