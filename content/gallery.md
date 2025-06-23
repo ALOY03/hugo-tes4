@@ -15,7 +15,7 @@ language: en
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
       <div>
-        <img class="object-cover w-full h-64 rounded-lg shadow-md" src="../assets/images/gallery/Screenshot 2025-06-24 002200.png" alt="Foto kegiatan 1" />
+        <img class="object-cover w-full h-64 rounded-lg shadow-md" src="static/images/gallery/Screenshot 2025-06-24 002200.png" alt="Foto kegiatan 1" />
       </div>
       <div>
         <img class="object-cover w-full h-64 rounded-lg shadow-md" src="../assets/images/gallery/Screenshot 2025-06-24 020342.png" alt="Foto kegiatan 2" />
