@@ -149,14 +149,12 @@ menu:
     post: "Formulir dan info penerimaan siswa baru"
     url: "#"
     weight: 10
-
   - identifier: comments
     pre: target  # Ikon panah target → cocok untuk visi misi
     name: Visi Misi
     post: "Tujuan dan arah sekolah"
     url: "#"
     weight: 20
-
   - identifier: analytics
     pre: book-open  # Ikon buku → cocok untuk sejarah
     name: Sejarah
