@@ -144,7 +144,7 @@ menu:
 
   dropdown:
   - identifier: appearance
-    pre: file-text  # Ikon formulir pendaftaran
+    pre: stars
     name: Pendaftaran
     post: "Formulir dan info penerimaan siswa baru"
     url: "#"
