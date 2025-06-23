@@ -136,7 +136,7 @@ menu:
   - identifier: appearance
     name: Pendaftaran
     post: "Formulir dan info penerimaan siswa baru"
-    url: "#"
+    url: /pendaftaran/
     weight: 10
   - identifier: comments
     name: Visi Misi
