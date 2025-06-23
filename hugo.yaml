@@ -1,5 +1,5 @@
 baseURL: ''
-title: TailBliss
+title: SMP IT AR ROFII JATILUHUR
 languageCode: en-us
 DefaultContentLanguage: en
 enableEmoji: true
@@ -76,7 +76,7 @@ params:
         url: "#"
     logos:
       - identifier: a
-        image: "images/global/sample-logo.svg"
+        image: "images/global/Picture1.png"
         alt: "a"
       - identifier: b
       - identifier: c
