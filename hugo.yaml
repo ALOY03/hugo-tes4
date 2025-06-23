@@ -49,7 +49,7 @@ params:
 
   p1:
     heading: "Visi dan Misi"
-    image: "images/pages/our-mission.png"
+    image: "assets/images/pages/Screenshot 2025-06-24 002200.png"
     content:
       - text: "Visi: Menjadi sekolah Islam unggulan yang mencetak generasi Qur'ani, berprestasi dan berakhlakul karimah."
       - text: "Misi: Menanamkan nilai-nilai keislaman dalam pembelajaran, membangun karakter peserta didik, dan menyiapkan siswa yang siap menghadapi tantangan global dengan dasar ilmu dan iman."
