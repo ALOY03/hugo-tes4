@@ -7,33 +7,50 @@ language: en
 
 <!-- @format -->
 
-<section class="py-12 bg-white dark:bg-gray-900">
+<section x-data="{ open: false, imageSrc: '' }" class="py-12 bg-white dark:bg-gray-900">
   <div class="max-w-screen-xl mx-auto px-4 lg:px-8">
     <div class="mb-10 text-center">
       <h2 class="text-3xl font-bold text-gray-800 dark:text-white">Galeri Kegiatan</h2>
       <p class="mt-2 text-gray-600 dark:text-gray-300">Beberapa dokumentasi foto kegiatan sekolah kami</p>
     </div>
+
+    <!-- Grid Galeri -->
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-      <div>
-        <img class="object-cover w-full h-64 rounded-lg shadow-md" src="/images/gallery/Screenshot 2025-06-24 002200.png" alt="Foto kegiatan 1" />
-      </div>
-      <div>
-        <img class="object-cover w-full h-64 rounded-lg shadow-md" src="/images/gallery/Screenshot 2025-06-24 020258.png" alt="Foto kegiatan 2" />
-      </div>
-      <div>
-        <img class="object-cover w-full h-64 rounded-lg shadow-md" src="/images/gallery/Screenshot 2025-06-24 020324.png" alt="Foto kegiatan 3" />
-      </div>
-      <div>
-        <img class="object-cover w-full h-64 rounded-lg shadow-md" src="/images/gallery/Screenshot 2025-06-24 020342.png" alt="Foto kegiatan 4" />
-      </div>
-      <div>
-        <img class="object-cover w-full h-64 rounded-lg shadow-md" src="/images/gallery/Screenshot 2025-06-24 020409.png"
- alt="Foto kegiatan 5" />
-      </div>
-      <div>
-        <img class="object-cover w-full h-64 rounded-lg shadow-md" src="/images/galeri/6.jpg" alt="Foto kegiatan 6" />
-      </div>
+      <template x-for="(img, index) in [
+        '/images/gallery/Screenshot 2025-06-24 002200.png',
+        '/images/gallery/Screenshot 2025-06-24 020258.png',
+        '/images/gallery/Screenshot 2025-06-24 020324.png',
+        '/images/gallery/Screenshot 2025-06-24 020342.png',
+        '/images/gallery/Screenshot 2025-06-24 020409.png',
+        '/images/galeri/6.jpg'
+      ]" :key="index">
+        <div>
+          <img
+            :src="img"
+            @click="open = true; imageSrc = img"
+            class="cursor-pointer object-cover w-full h-64 rounded-lg shadow-md transition duration-200 hover:opacity-80"
+            alt="Foto kegiatan"
+          />
+        </div>
+      </template>
+    </div>
+  </div>
+
+  <!-- Modal Viewer -->
+  <div
+    x-show="open"
+    x-transition
+    class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-80"
+  >
+    <div class="relative max-w-3xl w-full mx-4">
+      <button
+        @click="open = false"
+        class="absolute top-2 right-2 bg-white text-black rounded-full p-1 hover:bg-red-600 hover:text-white transition"
+        aria-label="Close"
+      >
+        ✕
+      </button>
+      <img :src="imageSrc" class="max-h-[80vh] w-full rounded-lg shadow-lg object-contain mx-auto" />
     </div>
   </div>
 </section>
-
