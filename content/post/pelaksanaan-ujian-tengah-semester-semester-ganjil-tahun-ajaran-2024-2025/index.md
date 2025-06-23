@@ -4,7 +4,7 @@ date: 2025-06-23T15:45:06.615Z
 tags:
   - news
 weight: 0
-featured_image: img-20210225-wa0207.jpg
+featured_image: ../assets/images/featured/Picture1.png
 ---
 ![](img-20200430-wa0008.jpg)
 ![](picture1.png "logo smp it")
