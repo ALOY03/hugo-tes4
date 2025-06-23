@@ -144,6 +144,7 @@ menu:
 
   dropdown:
     - identifier: appearance
+      pre: file-text
       name: Pendaftaran
       post: "Easy customization"
       url: "#"
