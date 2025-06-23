@@ -21,7 +21,7 @@ language: en
         <img class="object-cover w-full h-64 rounded-lg shadow-md" src="static/images/gallery/Screenshot 2025-06-24 020258.png" alt="Foto kegiatan 2" />
       </div>
       <div>
-        <img class="object-cover w-full h-64 rounded-lg shadow-md" src="../assets/images/gallery/Screenshot 2025-06-24 020310.png" alt="Foto kegiatan 3" />
+        <img class="object-cover w-full h-64 rounded-lg shadow-md" src=static/images/gallery/Screenshot 2025-06-24 020324.png" alt="Foto kegiatan 3" />
       </div>
       <div>
         <img class="object-cover w-full h-64 rounded-lg shadow-md" src="../assets/images/gallery/Screenshot 2025-06-24 020324.png" alt="Foto kegiatan 4" />
