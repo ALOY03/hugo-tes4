@@ -19,10 +19,9 @@ Terima kasih telah menjaga nama baik sekolah selama belajar di SMP IT Ar-Rofii J
 ### 📸 Dokumentasi Kegiatan
 
 ![Pemberian Surat Kelulusan 1](screenshot-2025-06-23-233717.png)
-*Penyerahan simbolis surat kelulusan kepada perwakilan siswa.*
+
 
 ![Pemberian Surat Kelulusan 2](screenshot-2025-06-23-233731.png)
-*Suasana haru dan bahagia para siswa setelah menerima surat kelulusan.*
 
-![Pemberian Surat Kelulusan 3](screenshot-2025-06-23-233745.png)
-*Foto ber*
+
+
