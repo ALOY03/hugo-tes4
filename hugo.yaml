@@ -142,25 +142,25 @@ menu:
       url: /about/
       weight: 20
 
- dropdown:
-  - identifier: appearance
-    pre: file-text  # Ikon formulir pendaftaran
-    name: Pendaftaran
-    post: "Formulir dan info penerimaan siswa baru"
-    url: "#"
-    weight: 10
-  - identifier: comments
-    pre: target  # Ikon panah target → cocok untuk visi misi
-    name: Visi Misi
-    post: "Tujuan dan arah sekolah"
-    url: "#"
-    weight: 20
-  - identifier: analytics
-    pre: book-open  # Ikon buku → cocok untuk sejarah
-    name: Sejarah
-    post: "Sejarah singkat SMP IT Ar-Rofii"
-    url: "#"
-    weight: 30
+dropdown:
+    - identifier: appearance
+      pre: stars
+      name: Pendaftaran
+      post: "Easy customization"
+      url: "#"
+      weight: 10
+    - identifier: comments
+      pre: comments
+      name: Visi Misi
+      post: "Check your latest comments"
+      url: "#"
+      weight: 20
+    - identifier: analytics
+      pre: piechart
+      name: Sejarah
+      post: "Take a look at your statistics"
+      url: "#"
+      weight: 30
 
 
   footer:
