@@ -8,10 +8,12 @@ image: screenshot-2025-06-23-233649.png
 
 ![](screenshot-2025-06-23-233731.png)
 
-<!--StartFragment-->
+![](screenshot-2025-06-23-233745.png)
 
-Kami segenap keluarga besar SMP Islam Terpadu Ar-Rofii Jatiluhur mengucapkan Selamat atas Kelulusan Seluruh Siswa-Siswi kelas IX SMP Islam Terpadu Ar-Rofii Jatiluhur Tahun Pelajaran 2024/2025.\
+### <!--StartFragment-->
+
+### Kami segenap keluarga besar SMP Islam Terpadu Ar-Rofii Jatiluhur mengucapkan Selamat atas Kelulusan Seluruh Siswa-Siswi kelas IX SMP Islam Terpadu Ar-Rofii Jatiluhur Tahun Pelajaran 2024/2025.\
 \
 Terimakasih sudah menjaga nama baik SMP Islam Terpadu Ar-Rofii Jatiluhur. Semoga sukses terus buat kalian semua, doa terbaik selalu buat kalian 🙌
 
-<!--EndFragment-->
+### <!--EndFragment-->
