@@ -6,25 +6,25 @@
       <p class="mt-2 text-gray-600 dark:text-gray-300">Beberapa dokumentasi foto kegiatan sekolah kami</p>
     </div>
 
-    <!-- Grid Galeri -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-      <template x-for="(img, index) in [
-        'static/images/gallery/Screenshot 2025-06-24 002200.png',
-        '/images/gallery/Screenshot 2025-06-24 020258.png',
-        '/images/gallery/Screenshot 2025-06-24 020324.png',
-        '/images/gallery/Screenshot 2025-06-24 020342.png',
-        '/images/gallery/Screenshot 2025-06-24 020409.png',
-        '/images/galeri/6.jpg'
-      ]" :key="index">
-        <div>
-          <img
-            :src="img"
-            @click="open = true; imageSrc = img"
-            class="cursor-pointer object-cover w-full h-64 rounded-lg shadow-md transition duration-200 hover:opacity-80"
-            alt="Foto kegiatan"
-          />
-        </div>
-      </template>
+    <div x-data="{ open: false, imageSrc: '', images: [
+  '/images/gallery/Screenshot 2025-06-24 002200.png',
+  '/images/gallery/Screenshot 2025-06-24 020258.png',
+  '/images/gallery/Screenshot 2025-06-24 020324.png',
+  '/images/gallery/Screenshot 2025-06-24 020342.png',
+  '/images/gallery/Screenshot 2025-06-24 020409.png',
+  '/images/galeri/6.jpg'
+]}">
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+    <template x-for="(img, index) in images" :key="index">
+      <div>
+        <img :src="img" @click="open = true; imageSrc = img"
+             class="cursor-pointer object-cover w-full h-64 rounded-lg shadow-md"
+             alt="Foto kegiatan" />
+      </div>
+    </template>
+  </div>
+</div>
+
     </div>
   </div>
 
