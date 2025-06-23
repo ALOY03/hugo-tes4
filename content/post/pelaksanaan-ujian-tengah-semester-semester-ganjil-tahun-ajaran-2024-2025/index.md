@@ -6,5 +6,8 @@ tags:
 weight: 0
 image: img-20210225-wa0207.jpg
 ---
-#﻿ ujian penilaian akhir semester di smp it ar rofii 
+![](img-20200430-wa0008.jpg)
+
+# ﻿ujian penilaian akhir semester di smp it ar rofii
+
 ## di adakan  mulai tanggal 20 april - 27 april
