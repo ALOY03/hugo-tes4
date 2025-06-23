@@ -66,7 +66,7 @@ params:
       - text: "Kami bangga dengan berbagai prestasi siswa di bidang akademik, tahfidz, pramuka, dan olahraga. Kegiatan ekstrakurikuler juga aktif seperti panahan, jurnalistik, dan sains club."
     links:
       - text: Lihat kegiatan dan prestasi
-        url: "#"
+        url: /gallery/
     logos:
       - identifier: a
         image: "images/global/Picture1.png"
@@ -141,12 +141,12 @@ menu:
   - identifier: comments
     name: Visi Misi
     post: "Tujuan dan arah sekolah"
-    url: "#"
+    url: /visi-misi/
     weight: 20
   - identifier: analytics
     name: Sejarah
     post: "Sejarah singkat SMP IT Ar-Rofii"
-    url: "#"
+    url: /sejarah/
     weight: 30
 
   dropdown:
