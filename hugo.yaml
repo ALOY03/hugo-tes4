@@ -1,102 +1,3 @@
-baseURL: ''
-title: SMP IT AR ROFII JATILUHUR
-languageCode: en-us
-DefaultContentLanguage: en
-enableEmoji: true
-enableGitInfo: true
-enableRobotsTXT: true
-canonifyURLs: true
-
-pagination:
-  pagerSize: 6
-
-darkmode_js:
-  - assets/js/darkmode.js
-
-enableInlineShortcodes: true
-
-markup:
-  goldmark:
-    extensions:
-      definitionList: true
-      footnote: true
-      linkify: true
-      linkifyProtocol: https
-      strikethrough: true
-      table: true
-      taskList: true
-      typographer: true  # ✅ PERBAIKAN ERROR: harus boolean
-    parser:
-      attribute:
-        block: false
-        title: true
-      autoHeadingID: true
-      autoHeadingIDType: github
-      wrapStandAloneImageWithinParagraph: true
-    renderer:
-      hardWraps: false
-      unsafe: true
-      xhtml: false
-
-params:
-  author: Nusser Studios
-  authorimage: ../assets/images/global/Picture1.png
-  og_image: 
-  moto: "Super Fast, and Flexible"
-  description: "SMP IT AR ROFII JATILUHUR"
-  disable_theme_toggle: false
-  disable_stay_uptodate: false
-
-  p1:
-    heading: "Visi dan Misi"
-    image: "../assets/images/pages/Screenshot 2025-06-24 002200.png"
-    content:
-      - text: "Visi: Menjadi sekolah Islam unggulan yang mencetak generasi Qur'ani, berprestasi dan berakhlakul karimah."
-      - text: "Misi: Menanamkan nilai-nilai keislaman dalam pembelajaran, membangun karakter peserta didik, dan menyiapkan siswa yang siap menghadapi tantangan global dengan dasar ilmu dan iman."
-
-  p2:
-    heading: "Profil Sekolah"
-    image: "images/pages/hacktoberfest.jpg"
-    content:
-      - text: "SMP IT AR ROFII JATILUHUR adalah lembaga pendidikan Islam tingkat menengah pertama yang berlokasi di Ciamis. Mengintegrasikan kurikulum nasional dengan pembinaan karakter dan nilai-nilai Al-Qur’an."
-
-  p3:
-    heading: "Prestasi dan Kegiatan"
-    content:
-      - text: "Kami bangga dengan berbagai prestasi siswa di bidang akademik, tahfidz, pramuka, dan olahraga. Kegiatan ekstrakurikuler juga aktif seperti panahan, jurnalistik, dan sains club."
-    links:
-      - text: Lihat kegiatan dan prestasi
-        url: /gallery/
-
-
-  p4:
-    heading: "Berita Terbaru"
-    content:
-      - text: "Simak berita dan pengumuman penting seputar kegiatan sekolah kami."
-
-  p5:
-    heading: "Berlangganan Info"
-    content:
-      - text: "Dapatkan informasi penting dan agenda kegiatan sekolah melalui email."
-    action: "#"
-    label: "Email address"
-    placeholder: "Enter your email"
-    button: "Notify me"
-
-  social_media:
-    github:
-      enabled: true
-      url: 'https://github.com/nusserstudios'
-    facebook:
-      enabled: true
-      url: 'https://facebook.com/nusserstudios'
-    instagram:
-      enabled: true
-      url: 'https://instagram.com/nusserstudios'
-    twitter:
-      enabled: true
-      url: 'https://twitter.com/nusserstudios'
-
 menu:
   main:
     - identifier: prose
@@ -109,92 +10,36 @@ menu:
       weight: 20
     - identifier: categories
       pre: dropdown
-      name: informasi lainya
+      name: Informasi Lainnya
       weight: 30
     - identifier: contact
       name: Pendaftaran
       url: /contact/
       weight: 50
-      
-categories:
-  - identifier: appearance
-    name: Pendaftaran
-    post: "Formulir dan info penerimaan siswa baru"
-    url: /pendaftaran/
-    weight: 10
-  - identifier: comments
-    name: Visi Misi
-    post: "Tujuan dan arah sekolah"
-    url: /visi-misi/
-    weight: 20
-  - identifier: analytics
-    name: Sejarah
-    post: "Sejarah singkat SMP IT Ar-Rofii"
-    url: /sejarah/
-    weight: 30
 
-  
-  
-dropdown:
-- indenttifier : post
-  name : blog
-  url :
-- indentifier : blog
-  name : blog
-  url : /#/
+  categories:
+    - identifier: appearance
+      name: Pendaftaran
+      post: "Formulir dan info penerimaan siswa baru"
+      url: /pendaftaran/
+      weight: 10
+    - identifier: comments
+      name: Visi Misi
+      post: "Tujuan dan arah sekolah"
+      url: /visi-misi/
+      weight: 20
+    - identifier: analytics
+      name: Sejarah
+      post: "Sejarah singkat SMP IT Ar-Rofii"
+      url: /sejarah/
+      weight: 30
 
-
-  
-footer:
-    - identifier: about
-      name: About
-      url: /about/
+  dropdown:
+    - identifier: post
+      name: Artikel
+      url: /artikel/
       weight: 10
     - identifier: blog
       name: Blog
-      url: /categories/blog/
+      url: /blog/
       weight: 20
-    - identifier: news
-      name: News
-      url: /categories/news/
-      weight: 30
-    - identifier: prose
-      name: Prose
-      url: /prose/
-      weight: 40
-    - identifier: contact
-      name: Contact
-      url: /contact/
-      weight: 50
-
-taxonomies:
-  category: Categories
-  tag: Tags
-
-privacy:
-  disqus:
-    disable: false
-  googleAnalytics:
-    anonymizeIP: true
-    disable: false
-    respectDoNotTrack: false
-    useSessionStorage: false
-  instagram:
-    disable: false
-    simple: false
-  twitter:
-    disable: false
-    enableDNT: false
-    simple: false
-  vimeo:
-    disable: false
-    enableDNT: false
-    simple: false
-  youtube:
-    disable: false
-    privacyEnhanced: true
-
-module:
-  hugoVersion:
-    extended: true
-    min: "0.114.0"
