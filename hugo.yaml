@@ -42,6 +42,7 @@ params:
   author: Nusser Studios
   authorimage: ../assets/images/global/Picture1.png
   og_image: 
+  moto: "Super Fast, and Flexible"
   description: "SMP IT AR ROFII JATILUHUR"
   disable_theme_toggle: false
   disable_stay_uptodate: false
@@ -197,4 +198,4 @@ module:
   hugoVersion:
     extended: true
     min: "0.114.0"
- c
+ada error bagian dropdown isinya tidak muncul 
