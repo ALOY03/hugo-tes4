@@ -128,7 +128,7 @@ menu:
       url: /contact/
       weight: 50
       
-categories: informasi lainya
+categories:
   - identifier: appearance
     name: Pendaftaran
     post: "Formulir dan info penerimaan siswa baru"
