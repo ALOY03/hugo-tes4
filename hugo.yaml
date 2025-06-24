@@ -67,15 +67,7 @@ params:
     links:
       - text: Lihat kegiatan dan prestasi
         url: /gallery/
-    logos:
-      - identifier: a
-        image: "images/global/Picture1.png"
-        alt: "a"
-      - identifier: b
-      - identifier: c
-      - identifier: d
-      - identifier: e
-      - identifier: f
+
 
   p4:
     heading: "Berita Terbaru"
