@@ -127,6 +127,22 @@ menu:
       name: Pendaftaran
       url: /contact/
       weight: 50
+categories:
+  - identifier: appearance
+    name: Pendaftaran
+    post: "Formulir dan info penerimaan siswa baru"
+    url: /pendaftaran/
+    weight: 10
+  - identifier: comments
+    name: Visi Misi
+    post: "Tujuan dan arah sekolah"
+    url: /visi-misi/
+    weight: 20
+  - identifier: analytics
+    name: Sejarah
+    post: "Sejarah singkat SMP IT Ar-Rofii"
+    url: /sejarah/
+    weight: 30
 
   
   
