@@ -109,12 +109,8 @@ menu:
       weight: 20
     - identifier: categories
       pre: dropdown
-      name: Categories
+      name: Informasi Lainya
       weight: 30
-    - identifier: dropdown
-      pre: complexdropdown
-      name: Dropdown
-      weight: 40
     - identifier: contact
       name: Pendaftaran
       url: /contact/
