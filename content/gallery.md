@@ -15,9 +15,6 @@ language: en
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
       <div>
-        <img class="object-cover w-full h-64 rounded-lg shadow-md" src="/images/gallery/Screenshot 2025-06-24 002200.png" alt="Foto kegiatan 1" />
-      </div>
-      <div>
         <img class="object-cover w-full h-64 rounded-lg shadow-md" src="/images/gallery/Screenshot 2025-06-24 020258.png" alt="Foto kegiatan 2" />
       </div>
       <div>
@@ -25,10 +22,6 @@ language: en
       </div>
       <div>
         <img class="object-cover w-full h-64 rounded-lg shadow-md" src="/images/gallery/Screenshot 2025-06-24 020342.png" alt="Foto kegiatan 4" />
-      </div>
-      <div>
-        <img class="object-cover w-full h-64 rounded-lg shadow-md" src="/images/gallery/Screenshot 2025-06-24 020409.png"
- alt="Foto kegiatan 5" />
       </div>
       <div>
         <img class="object-cover w-full h-64 rounded-lg shadow-md" src="/images/galeri/6.jpg" alt="Foto kegiatan 6" />
