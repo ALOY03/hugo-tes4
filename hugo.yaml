@@ -109,7 +109,7 @@ menu:
       weight: 20
     - identifier: categories
       pre: dropdown
-      name:
+      name: informasi lainya
       weight: 30
     - identifier: contact
       name: Pendaftaran
